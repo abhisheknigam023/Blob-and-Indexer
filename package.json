@@ -1,0 +1,52 @@
+{
+  "name": "media-services-node-sample",
+  "author": "Microsoft Corporation",
+  "contributors": [
+    "Xu, Willie <wilx@microsoft.com>"
+  ],
+  "version": "0.1.0",
+  "description": "A sample to demonstrate using the media services api using Nodejs",
+  "tags": [
+    "azure",
+    "microsoft",
+    "sdk",
+    "media"
+  ],
+  "keywords": [
+    "node",
+    "microsoft",
+    "azure",
+    "Azure",
+    "Storage",
+    "Quick",
+    "Start",
+    "Blob",
+    "BlockBlob",
+    "Upload",
+    "Download",
+    "Container",
+    "List"
+  ],
+  "main": "./index.js",
+  "license": "MIT",
+  "dependencies": {
+    "azure-arm-mediaservices": "^4.0.0",
+    "azure-storage": "^2.8.0",
+    "dotenv": "^7.0.0",
+    "ms-rest": "^2.3.3",
+    "ms-rest-azure": "^2.5.5",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+  "start": "node index.js"
+  },
+  "homepage": "https://github.com/Azure-Samples/storage-blobs-node-quickstart#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azure-Samples/storage-blobs-node-quickstart.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Azure-Samples/storage-blobs-node-quickstart/issues"
+  }
+}
